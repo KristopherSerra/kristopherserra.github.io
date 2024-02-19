@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawk Gaming - Carrito</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/Ico (154x156).png">
+</head>
+<script src="carrito.js"></script>
+
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Hawk Gaming</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="boton-menu boton-volver active"><i class="bi bi-backspace"></i>
+                            Seguir Comprando</a>
+                    </li>
+                    <li><a href="carrito.html" class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p>©2024 GRYB Productions </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Productos Actualmente en el Carro</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio">Tu carro se encuentra vacio. <br>
+                    ¿Ya encontraste lo que buscar? Si no, mira nuestras <a href="index.html">ofertas especiales</a></p>
+                <div class="carrito-productos">
+                    <div class="carrito-producto">
+                        <div class="nombre">
+                            <small>Titulo</small>
+                            <h3>Auriculares</h3>
+                        </div>
+                        <div class="cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="precio">
+                            <small>Precio</small>
+                            <p>$5555</p>
+                        </div>
+                        <div class="subtotal">
+                            <small>Subtotal</small>
+                            <p>$5555</p>
+                        </div>
+                    </div>
+                    <button class="eliminar"> <i class="bi bi-trash-fill"></i> </button>
+                </div>
+
+                <div class="carrito-acciones">
+                    <div class="acciones-izquierda">
+                        <div class="acciones-vaciar">Vaciar Carrito</div>
+                    </div>
+                    <div class="acciones-derecha">
+                        <div class="acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$5555</p>
+                        </div>
+                        <button class="acciones-comprar"> Pagar</button>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
