@@ -1,0 +1,25 @@
+{% extends 'layout.html'%}
+
+{% block title %} Trivia De Marvel {% endblock %}
+
+{% block links%} {% endblock%}
+
+{% block scrypt %}
+<script src=static/Inicio.js> </script>
+{% endblock %}
+
+{% block content %}
+
+<div class="card">
+    <div class="pantalla-final" id="pantalla-final" style="display: block;">
+
+        <img src="static/Dificultad.png" class="imgMain">
+
+        <br>
+        <button class="btn facil" onclick="window.location='/Facil'">FACIL</button>
+        <button class="btn medio" onclick="window.location='/Medio'">MEDIO</button>
+        <button class="btn dificil" onclick="window.location='/Dificil'">DIFICIL</button>
+        <button class="back" onclick="window.location='/'">MENU PRINCIPAL</button>
+    </div>
+</div>
+{% endblock %}
